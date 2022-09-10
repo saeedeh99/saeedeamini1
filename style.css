@@ -1,0 +1,63 @@
+*,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.test{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(0deg,rgba(35, 28, 37, 0.5),rgba(151, 150,161, 0.725)),
+    url(./milky-way-1068x580.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.formm{
+    height: 400px;
+    width: 250px;
+    background-color: rgba(151, 150, 158, 0.699);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+header{
+  margin: 20px 0px 30px 0px;
+    text-align: center;  
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    height: 30px;
+    border-radius: 30px;
+    border: 0;
+    margin-bottom: 5px;
+    width: 100%;
+    padding: 9px;
+}
+button{
+    height: 30px;
+    border-radius: 30px;
+    background-color: rgb(73, 72, 75);
+    border: 0;
+    width: 100%;
+    margin-top: 10px;
+}
+footer{
+    margin-top: 90px;
+    text-align: center;
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black; 
+    
+}
+ a{
+    text-decoration: none;
+ }
